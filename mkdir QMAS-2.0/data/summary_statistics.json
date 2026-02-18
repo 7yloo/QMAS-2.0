@@ -1,0 +1,39 @@
+{
+  "project": "Q-MAS 2.0",
+  "date": "2026-02-18",
+  "environment": {
+    "size": 500,
+    "regular_targets_per_epoch": 800,
+    "golden_targets_per_epoch": 150,
+    "mega_targets_per_epoch": 20,
+    "agents": 100,
+    "epochs": 10
+  },
+  "results": {
+    "total_targets": 11417,
+    "total_regular": 7182,
+    "total_golden": 1367,
+    "total_mega": 188,
+    "total_value": 39652,
+    "mean_per_epoch": 3965.2,
+    "std_per_epoch": 202.6,
+    "best_epoch": 4201,
+    "best_epoch_number": 2
+  },
+  "communication_robustness": {
+    "comms_on_mean": 4052.8,
+    "comms_off_mean": 3877.6,
+    "degradation_percent": 4.3,
+    "p_value": 0.2120,
+    "statistically_significant": false
+  },
+  "efficiency": {
+    "regular_efficiency_percent": 89.8,
+    "golden_efficiency_percent": 91.1,
+    "mega_efficiency_percent": 94.0
+  },
+  "safety": {
+    "compliance_percent": 100,
+    "critical_errors": 0
+  }
+}
